@@ -3,12 +3,13 @@ import logo from './logo.svg';
 import './main.scss';
 import Watch from './pages/watch/Watch';
 import Register from './pages/register/Register';
+import Login from './pages/login/Login';
 
 function App() {
   return (
     <div className="App">
 
-      <Register />
+      <Login />
     </div>
   );
 }
